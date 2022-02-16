@@ -5,11 +5,11 @@ Small tool to write a valid textures text file for the zdoom engine, inteded to 
 ### pip
 You can simply use the pip command
 
-```pip install zdtwriter```
+```pip install zd-textures-tool```
 
 Then you can import in your script whit:
 
-```import zdtwriter```
+```import zd-textures-tool```
 
 ### manual
 all of the code is inside of ```zdtwriter.py``` in the ```src``` folder, you can get the file and manually import it in your script.
