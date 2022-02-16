@@ -11,6 +11,24 @@ Then you can import in your script whit:
 
 ```import zd-textures-tool```
 
+## Use
+Here a small example, the script itself has some more examples inside of it.
+```
+import zdtwriter # zdoom-textures-writer
+
+# Make a new texture block
+wall = TextureData("WALLBRICK",type = "walltexture", optional = True, scaleY = 1.2)
+
+# Make a path block
+p = PatchData("textures/brick.png")
+
+# Add the patch in the texture
+wall.add_patch(p)
+
+# Show on screen a texture block.
+print(wall.write())
+```
+
 ### manual
 all of the code is inside of ```zdtwriter.py``` in the ```src``` folder, you can get the file and manually import it in your script.
 
